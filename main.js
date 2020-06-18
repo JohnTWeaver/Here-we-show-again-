@@ -1,6 +1,7 @@
 //Deandre and Shakir
-//shakir.z.aziz@gmail.com
-
+//text element after array apend that array to that element 
+//for loop dont use for looop just apppend each element to the main 
+//append main to the dom
 const output = document.querySelector('.output')
 const parentElement = document.querySelector('.katas-list')
 
@@ -248,22 +249,12 @@ for(let i =0; i< sampleArray.length; i++)
 arrayOfKatas.push(tempCurrentlargest)
 
 
-     
-
-
-
 addEventListener("click", function(){
    
      for(let i = 0; i < arrayOfKatas.length; i++)
      {
         parentElement.append('\n')
-        parentElement.append("Kata" + (i +1))
+        parentElement.append("Kata" + (i +1) + '\n')
         parentElement.append(arrayOfKatas[i])
     }
 })
-
-
-
-
-
-
